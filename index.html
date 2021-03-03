@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+	<title>English for kids</title>
+</head>
+<body>
+	<div id="root">
+		<div class="app-container">
+			<div class="header-container">
+				<input id="main-menu-checkbox" type="checkbox" autocomplete="off">
+				<header>
+					<label for="main-menu-checkbox" class="menu-btn">
+						<span></span>
+					</label>
+					<nav id="main-menu" role="navigation" class="main-menu" aria-expanded="false" aria-label="Main menu">
+						<label for="main-menu-checkbox"class="menu-close menu-btn">
+							<span></span>
+						</label>
+						<ul>
+							<li><a class="header-menu-item active" href="index.html">Main Page</a></li>
+							<li><a class="header-menu-item" href="#">Action (set A)</a></li>
+							<li><a class="header-menu-item" href="#">Action (set B)</a></li>
+							<li><a class="header-menu-item" href="#">Action (set C)</a></li>
+							<li><a class="header-menu-item" href="#">Adjective</a></li>
+							<li><a class="header-menu-item" href="#">Animal (set A)</a></li>
+							<li><a class="header-menu-item" href="#">Animal (set B)</a></li>
+							<li><a class="header-menu-item" href="#">Clothes</a></li>
+							<li><a class="header-menu-item" href="#">Emotions</a></li>
+						</ul>
+					</nav>
+					<label for="main-menu-checkbox" class="backdrop" tabindex="-1" aria-hidden="true" hidden></label>
+				</header>
+				<div class="switch-container">
+					<label class="switch">
+						<input type="checkbox" class="switch-input" checked="checked" autocomplete="off">
+						<span class="switch-label" data-on="Train" data-off="Play"></span>
+						<span class="switch-handle"></span>
+					</label>
+				</div>				
+			</div>
+			<div class="container main-container">
+				<div class="main-card-green">
+					<div class="main-card">
+						<img src="assets/img/fly.jpg">
+						<p>Action (set A)</p>
+					</div>					
+				</div>				
+				<div class="main-card-green">
+					<div class="main-card">
+						<img src="assets/img/skip.jpg">
+						<p>Action (set B)</p>
+					</div>
+				</div>
+				<div class="main-card-green">
+					<div class="main-card">
+						<img src="assets/img/carry.png">
+						<p>Action (set C)</p>
+					</div>						
+				</div>
+				<div class="main-card-green">
+					<div class="main-card">
+						<img src="assets/img/big.jpg">
+						<p>Adjective</p>
+					</div>					
+				</div>
+				<div class="main-card-green">
+					<div class="main-card">
+						<img src="assets/img/chick.jpg">
+						<p>Animal (set A)</p>
+					</div>					
+				</div>
+				<div class="main-card-green">
+					<div class="main-card">
+						<img src="assets/img/dolphin.jpg">
+						<p>Animal (set B)</p>
+					</div>					
+				</div>
+				<div class="main-card-green">
+					<div class="main-card">
+						<img src="assets/img/blouse.jpg">
+						<p>Clothes</p>
+					</div>					
+				</div>
+				<div class="main-card-green">
+					<div class="main-card">
+						<img src="assets/img/laugh.jpg">
+						<p>Emotions</p>
+					</div>					
+				</div>					
+			</div>
+		</div>
+		<footer>
+			<a href="https://rs.school/js/"><img class="rs_school_logo" src="assets/img/rs_school_js.svg"></a>
+			<p>
+			&copy; <a href="https://github.com/treger78">treger78</a>, 2020	
+			</p>
+		</footer>		
+	</div>
+	<script type="module" src="script.js"></script>
+</body>
+</html>

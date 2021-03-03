@@ -1,0 +1,21 @@
+.main-cards {
+	position: absolute;
+}
+
+.front, .back {
+	display: flex;
+	backface-visibility: hidden;
+}
+
+.back {
+	transform: rotateY(180deg);
+}
+
+.green:hover .front {
+	transform: rotateY(180deg);
+	position: absolute;
+}
+
+.green:hover .back {
+	transform: rotateY(360deg);
+}
